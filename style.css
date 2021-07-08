@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list-left .list-group .list-group-text {
+    color: #fe4b09 !important;
+    font-family: 'Bebas Neue';
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 5px 5px #fee8bc;
+    letter-spacing: 5px;
+}
+
+.list-group .list-group-item a {
+    color: #fe4b09 !important;
+    /* font-size: 20px; */
+}
+
+.navbar {
+    background-color: #fe4b09 !important;
+}
+
+.navbar-brand,
+.navbar-nav .nav-item .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card .card-img-top:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    height: 1.23in;
+    background-color: #fe4b09;
+}
+
+footer .footer-text {
+    padding: 50px 0;
+}
